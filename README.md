@@ -25,8 +25,22 @@ Imagen 2.  ROL DNS
 1. Utilizar el servidor como sólo caché. Por defecto, al instalar el servicio DNS, este actúa como sólo caché, es decir, no es autorizado a ninguna zona) y responde a consultas recursivas. 
 
 a. Configura el cliente windows y ubuntu con ip fija y que tengan como servidor DNS la dirección del servidor. 
+![image3](images/DNS3.png "DNS")
+
+```
+Imagen 2.  Adaptador de Red WS
+```
+![image4](images/ubu1.png "ubuntu")
+
+```
+Imagen 4.  Adaptador de Red Ubuntu
+```
 
 b. En windows usa la orden nslookup y realiza consultas a diversos dominios de internet (www.google.es, www.mec.es, www.ual.es …) 
+![image5](images/DNS4.png "DNS")
+
+```
+Imagen 2.  nslookup WS
 
 c. Activa la vista avanzada en el servidor y consulta la caché, busca los nombres por los que has preguntado y al ser consultas recursivas hay más información. 
 
