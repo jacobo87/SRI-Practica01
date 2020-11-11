@@ -1,7 +1,7 @@
 # SRI-PRÁCTICA 01 - DNS en Windows Server
-> IES Celia Viñas (Almería) - Curso 2020/2021 
-> Módulo: IAW - Implantación de Aplicaciones Web 
-> Ciclo: CFGS Administración de Sistemas Informáticos en Red 
+> IES Celia Viñas (Almería) - Curso 2020/2021  
+> Módulo: SRI - Servicios de Red e Internet  
+> Ciclo: CFGS Administración de Sistemas Informáticos en Red  
 
 ## CONFIGURACIÓN PREVIAS
 Siguiendo la configuración de máquinas virtuales que vimos en el tema inicial, vamos a configurar un servidor DNS en la máquina de Windows 2019 server.
