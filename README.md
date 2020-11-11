@@ -21,6 +21,7 @@ Imagen 1.  Instalación del ROL DNS
 ```
 Imagen 2.  ROL DNS
 ```
+
 ## Punto 3. EJERCICIOS 
 1. Utilizar el servidor como sólo caché. Por defecto, al instalar el servicio DNS, este actúa como sólo caché, es decir, no es autorizado a ninguna zona) y responde a consultas recursivas. 
 
@@ -41,6 +42,7 @@ b. En windows usa la orden nslookup y realiza consultas a diversos dominios de i
 
 ```
 Imagen 2.  nslookup WS
+```
 
 c. Activa la vista avanzada en el servidor y consulta la caché, busca los nombres por los que has preguntado y al ser consultas recursivas hay más información. 
 
@@ -51,6 +53,12 @@ dig [@servidorDNS] NombreDominioAConsultar [tipoConsulta]
 #dig @TuIPServidorDNS google.es mx (servidores de correo de google.es) #dig @TuIPServidorDNS google.es soa (consulta l registro de la zona google.es) 
 #dig @TuIPServidorDNS google.es any (Todas las consultas a,ns,mx,soa,...) #dig @TuIPServidorDNS -x 193.147.117.38 (consulta inversa IP --> nombre) 
 ```
+![image6](images/ubu2.png "ubuntu")
+
+```
+Imagen 2.  dig Ubuntu
+```
+
 
 2. Crear y configurar el servidor como primario en una zona de resolución directa. 
 
