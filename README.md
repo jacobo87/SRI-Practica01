@@ -12,15 +12,15 @@ Siguiendo la configuración de máquinas virtuales que vimos en el tema inicial,
 1. Instalar servidor de DNS en vm-2019 server si no lo está aún. 
 ![image1](images/DNS1.png "DNS")
 
-
+```
 Imagen 1.  Instalación del ROL DNS
-
+```
 2. En administración del servidor. Agregar roles y características. Servidor DNS. 
 ![image2](images/DNS2.png "DNS")
 
-
+````
 Imagen 2.  ROL DNS
-
+```
 ## Punto 3. EJERCICIOS 
 1. Utilizar el servidor como sólo caché. Por defecto, al instalar el servicio DNS, este actúa como sólo caché, es decir, no es autorizado a ninguna zona) y responde a consultas recursivas. 
 
