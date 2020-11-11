@@ -18,7 +18,7 @@ Imagen 1.  Instalación del ROL DNS
 2. En administración del servidor. Agregar roles y características. Servidor DNS. 
 ![image2](images/DNS2.png "DNS")
 
-````
+```
 Imagen 2.  ROL DNS
 ```
 ## Punto 3. EJERCICIOS 
