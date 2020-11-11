@@ -38,29 +38,31 @@ b. Debemos cambiar el sufijo DNS del equipo a este dominio que vamos a crear (es
 
 c. En el administrador de DNS, sobre zonas de búsqueda directa crearemos una nueva zona (tunombre.sri) 
 
-d. En el registro de inicio de autoridad (SOA) establece los siguientes valores: ➢ Nombre del servidor principal para que sea ns.tunombre.sri 
-➢ Contacto: tunombre.tunombre.sri 
-➢ Actualización: 5 horas. 
-➢ Reintento: 3 horas. 
-➢ Expira: 14 días. 
-➢ TTL mínimo: 10 horas. 
+d. En el registro de inicio de autoridad (SOA) establece los siguientes valores: 
+➢ Nombre del servidor principal para que sea ns.tunombre.sri 
+➢ Contacto: tunombre.tunombre.sri  
+➢ Actualización: 5 horas.  
+➢ Reintento: 3 horas.  
+➢ Expira: 14 días.  
+➢ TTL mínimo: 10 horas.  
 
-e. En el registro servidores de nombre (NS) borramos los que nos aparecen y configuramos uno nuevo que sea ns.tunombre.sri y que tenga las ip’s del servidor (de las dos tarjetas de red). 
+e. En el registro servidores de nombre (NS) borramos los que nos aparecen y configuramos uno nuevo que sea ns.tunombre.sri y que tenga las ip’s del servidor (de las dos tarjetas de red).
+
 f. Establece los registros de tipo A para las siguientes direcciones: 
-➢ tunombre.sri → la IP de tu máquina anfitriona. 
-➢ pcXX.tunombre.sri → 192.168.22.X (dónde XX es la IP de un compañero) 
-➢ router.tunombre.sri → 192.168.22.100 (Ip del router) 
-➢ win.tunombre.sri → 10.0.X.X (ip de tu máquina cliente windows) 
-➢ ubuntu.tunombre.sri → 10.0.X.X (ip de tu máquina cliente ubuntu) 
+➢ tunombre.sri → la IP de tu máquina anfitriona.  
+➢ pcXX.tunombre.sri → 192.168.22.X (dónde XX es la IP de un compañero)  
+➢ router.tunombre.sri → 192.168.22.100 (Ip del router)  
+➢ win.tunombre.sri → 10.0.X.X (ip de tu máquina cliente windows)  
+➢ ubuntu.tunombre.sri → 10.0.X.X (ip de tu máquina cliente ubuntu)  
 
 g. Establece los siguientes registros de alias (CNAME): 
-➢ mail → a la máquina ubuntu 
-➢ ftp → al router 
-➢ www → a tunombre.sri (máquina anfitriona) 
-➢ nombrecompañero → a la máquina del compañero. 
+➢ mail → a la máquina ubuntu  
+➢ ftp → al router  
+➢ www → a tunombre.sri (máquina anfitriona)  
+➢ nombrecompañero → a la máquina del compañero.  
 
 h. Establece el registro para servidor de correo (MX) 
-➢ tunombre.sri(No poner nada en host) → mail (ubuntu) 
+➢ tunombre.sri(No poner nada en host) → mail (ubuntu)  
 
 3. Configurar zonas de resolución inversa para las dos subredes de trabajo y que resuelva cada una de las IP’s establecidas (192.168.22 y 10.0.X) 
 
