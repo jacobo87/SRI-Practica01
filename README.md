@@ -9,7 +9,11 @@ Siguiendo la configuración de máquinas virtuales que vimos en el tema inicial,
 > IMPORTANTE: Debido a que el servidor que vamos a instalar es independiente a los nombres de dominio que se establecen con Active Directory, para no tener problemas, vamos a desinstalar todos los roles y características de Active Directory. Recomendación: Instalar un nuevo servidor (aunque se pierda también el DHCP, no es muy importante ya que para establecer nombres en un dominio es recomendable que las IP’s sean fijas) 
 
 ## Punto 2. INSTALAR SERVICIO 
-1. Instalar servidor de DNS en vm-2019server si no lo está aún. 
+1. Instalar servidor de DNS en vm-2019 server si no lo está aún. 
+![image1](images/DNS1.png "image_tooltip")
+
+
+Imagen 1.  Instalación del ROL DNS
 
 2. En administración del servidor. Agregar roles y características. Servidor DNS. 
 
