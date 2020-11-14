@@ -94,9 +94,8 @@ Imagen 11.  dig Ubuntu
 
 a. Vamos a crear una zona para nuestra red local que se llamará: tunombre.sri 
 
-```
-![image12](images/DNS5.png "DNS jacobosri.dns")
 
+![image12](images/DNS5.png "DNS jacobosri.dns")
 ```
 Imagen 12.  DNS jacobosri.dns
 ```
@@ -106,7 +105,6 @@ Imagen 12.  DNS jacobosri.dns
 Imagen 13.  DNS jacobosri.dns
 ```
 ![image14](images/DNS7.png "DNS jacobosri.dns")
-
 ```
 Imagen 14.  DNS jacobosri.dns
 ```
