@@ -153,7 +153,10 @@ Imagen 18.  DNS jacobosri.dns
 
 h. Establece el registro para servidor de correo (MX) 
 ➢ tunombre.sri(No poner nada en host) → mail (ubuntu)   
-
+![image19](images/DNS13.png "DNS jacobosri.dns")
+```
+Imagen 19.  DNS jacobosri.dns
+```
 3. Configurar zonas de resolución inversa para las dos subredes de trabajo y que resuelva cada una de las IP’s establecidas (192.168.22 y 10.0.X) 
 
 4. Mirar los archivos de zona que ha generado windows (los de resolución directa e inversa) y ábrelos con el bloc de notas. 
