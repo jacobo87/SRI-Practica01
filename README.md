@@ -49,9 +49,13 @@ c. Activa la vista avanzada en el servidor y consulta la caché, busca los nombr
 d. En ubuntu y con la orden dig realiza las siguientes pruebas: 
 ```bash
 dig [@servidorDNS] NombreDominioAConsultar [tipoConsulta] 
-#dig @TuIPServidorDNS google.es (Consulta tipo A: la ip de google.es) #dig @TuIPServidorDNS google.es a (Consulta tipo A: la ip de google.es) #dig @TuIPServidorDNS google.es ns (servidores de DNS de google.es) 
-#dig @TuIPServidorDNS google.es mx (servidores de correo de google.es) #dig @TuIPServidorDNS google.es soa (consulta l registro de la zona google.es) 
-#dig @TuIPServidorDNS google.es any (Todas las consultas a,ns,mx,soa,...) #dig @TuIPServidorDNS -x 193.147.117.38 (consulta inversa IP --> nombre) 
+#dig @TuIPServidorDNS google.es (Consulta tipo A: la ip de google.es)  
+#dig @TuIPServidorDNS google.es a (Consulta tipo A: la ip de google.es)  
+#dig @TuIPServidorDNS google.es ns (servidores de DNS de google.es) 
+#dig @TuIPServidorDNS google.es mx (servidores de correo de google.es)  
+#dig @TuIPServidorDNS google.es soa (consulta l registro de la zona google.es) 
+#dig @TuIPServidorDNS google.es any (Todas las consultas a,ns,mx,soa,...)  
+#dig @TuIPServidorDNS -x 193.147.117.38 (consulta inversa IP --> nombre) 
 ```
 ![image6](images/ubu2.png "ubuntu")
 
