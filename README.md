@@ -117,13 +117,17 @@ Imagen 15.  DNS jacobosri.dns
 c. En el administrador de DNS, sobre zonas de búsqueda directa crearemos una nueva zona (tunombre.sri) 
 
 d. En el registro de inicio de autoridad (SOA) establece los siguientes valores: 
-➢ Nombre del servidor principal para que sea ns.tunombre.sri 
-➢ Contacto: tunombre.tunombre.sri  
-➢ Actualización: 5 horas.  
-➢ Reintento: 3 horas.  
-➢ Expira: 14 días.  
-➢ TTL mínimo: 10 horas.  
+➢ Nombre del servidor principal para que sea ns.tunombre.sri  
+➢ Contacto: tunombre.tunombre.sri   
+➢ Actualización: 5 horas.   
+➢ Reintento: 3 horas.   
+➢ Expira: 14 días.   
+➢ TTL mínimo: 10 horas. 
 
+![image16](images/DNS10.png "DNS jacobosri.dns")
+```
+Imagen 16.  DNS jacobosri.dns
+```
 e. En el registro servidores de nombre (NS) borramos los que nos aparecen y configuramos uno nuevo que sea ns.tunombre.sri y que tenga las ip’s del servidor (de las dos tarjetas de red).
 
 f. Establece los registros de tipo A para las siguientes direcciones: 
