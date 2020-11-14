@@ -158,7 +158,10 @@ h. Establece el registro para servidor de correo (MX)
 Imagen 19.  DNS jacobosri.dns
 ```
 3. Configurar zonas de resolución inversa para las dos subredes de trabajo y que resuelva cada una de las IP’s establecidas (192.168.22 y 10.0.X) 
-
+![image20](images/DNS14.png "DNS jacobosri.dns")
+```
+Imagen 20.  DNS jacobosri.dns
+```
 4. Mirar los archivos de zona que ha generado windows (los de resolución directa e inversa) y ábrelos con el bloc de notas. 
 
 5. Configurar redireccionadores de dns a 8.8.8.8 8.8.4.4 (servidores de dns que resuelven nombres que no están en las zonas de nuestros servidor dns). Está en propiedades servidor de dns. 
