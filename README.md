@@ -29,7 +29,7 @@ a. Configura el cliente windows y ubuntu con ip fija y que tengan como servidor 
 ![image3](images/DNS3.png "DNS")
 
 ```
-Imagen 2.  Adaptador de Red WS
+Imagen 3.  Adaptador de Red WS
 ```
 ![image4](images/ubu1.png "ubuntu")
 
@@ -41,7 +41,7 @@ b. En windows usa la orden nslookup y realiza consultas a diversos dominios de i
 ![image5](images/DNS4.png "DNS")
 
 ```
-Imagen 2.  nslookup WS
+Imagen 5.  nslookup WS
 ```
 
 c. Activa la vista avanzada en el servidor y consulta la caché, busca los nombres por los que has preguntado y al ser consultas recursivas hay más información. 
@@ -60,8 +60,34 @@ dig [@servidorDNS] NombreDominioAConsultar [tipoConsulta]
 ![image6](images/ubu2.png "ubuntu")
 
 ```
-Imagen 2.  dig Ubuntu
+Imagen 6.  dig Ubuntu
 ```
+![image7](images/ubu3.png "ubuntu")
+
+```
+Imagen 7.  dig Ubuntu
+```
+![image8](images/ubu4.png "ubuntu")
+
+```
+Imagen 8.  dig Ubuntu
+```
+![image9](images/ubu5.png "ubuntu")
+
+```
+Imagen 9.  dig Ubuntu
+```
+![image10](images/ubu6.png "ubuntu")
+
+```
+Imagen 10.  dig Ubuntu
+```
+![image11](images/ubu7.png "ubuntu")
+
+```
+Imagen 11.  dig Ubuntu
+```
+
 
 
 2. Crear y configurar el servidor como primario en una zona de resolución directa. 
