@@ -94,6 +94,23 @@ Imagen 11.  dig Ubuntu
 
 a. Vamos a crear una zona para nuestra red local que se llamará: tunombre.sri 
 
+```
+![image12](images/DNS5.png "DNS jacobosri.dns")
+
+```
+Imagen 12.  DNS jacobosri.dns
+```
+![image13](images/DNS6.png "DNS jacobosri.dns")
+
+```
+Imagen 13.  DNS jacobosri.dns
+```
+![image14](images/DNS7.png "DNS jacobosri.dns")
+
+```
+Imagen 14.  DNS jacobosri.dns
+```
+
 b. Debemos cambiar el sufijo DNS del equipo a este dominio que vamos a crear (esta opción se cambia donde se cambia el nombre del equipo pulsado el botón Más) 
 
 c. En el administrador de DNS, sobre zonas de búsqueda directa crearemos una nueva zona (tunombre.sri) 
