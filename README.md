@@ -131,20 +131,28 @@ Imagen 16.  DNS jacobosri.dns
 e. En el registro servidores de nombre (NS) borramos los que nos aparecen y configuramos uno nuevo que sea ns.tunombre.sri y que tenga las ip’s del servidor (de las dos tarjetas de red).
 
 f. Establece los registros de tipo A para las siguientes direcciones: 
-➢ tunombre.sri → la IP de tu máquina anfitriona.  
-➢ pcXX.tunombre.sri → 192.168.22.X (dónde XX es la IP de un compañero)  
-➢ router.tunombre.sri → 192.168.22.100 (Ip del router)  
-➢ win.tunombre.sri → 10.0.X.X (ip de tu máquina cliente windows)  
-➢ ubuntu.tunombre.sri → 10.0.X.X (ip de tu máquina cliente ubuntu)  
+➢ tunombre.sri → la IP de tu máquina anfitriona.   
+➢ pcXX.tunombre.sri → 192.168.22.X (dónde XX es la IP de un compañero)   
+➢ router.tunombre.sri → 192.168.22.100 (Ip del router)   
+➢ win.tunombre.sri → 10.0.X.X (ip de tu máquina cliente windows)   
+➢ ubuntu.tunombre.sri → 10.0.X.X (ip de tu máquina cliente ubuntu) 
+![image17](images/DNS11.png "DNS jacobosri.dns")
+```
+Imagen 17.  DNS jacobosri.dns
+```
 
 g. Establece los siguientes registros de alias (CNAME): 
-➢ mail → a la máquina ubuntu  
-➢ ftp → al router  
-➢ www → a tunombre.sri (máquina anfitriona)  
-➢ nombrecompañero → a la máquina del compañero.  
+➢ mail → a la máquina ubuntu   
+➢ ftp → al router   
+➢ www → a tunombre.sri (máquina anfitriona)   
+➢ nombrecompañero → a la máquina del compañero. 
+![image18](images/DNS12.png "DNS jacobosri.dns")
+```
+Imagen 18.  DNS jacobosri.dns
+```
 
 h. Establece el registro para servidor de correo (MX) 
-➢ tunombre.sri(No poner nada en host) → mail (ubuntu)  
+➢ tunombre.sri(No poner nada en host) → mail (ubuntu)   
 
 3. Configurar zonas de resolución inversa para las dos subredes de trabajo y que resuelva cada una de las IP’s establecidas (192.168.22 y 10.0.X) 
 
