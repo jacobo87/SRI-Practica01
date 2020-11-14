@@ -165,11 +165,23 @@ Imagen 20.  DNS jacobosri.dns
 4. Mirar los archivos de zona que ha generado windows (los de resolución directa e inversa) y ábrelos con el bloc de notas. 
 
 5. Configurar redireccionadores de dns a 8.8.8.8 8.8.4.4 (servidores de dns que resuelven nombres que no están en las zonas de nuestros servidor dns). Está en propiedades servidor de dns. 
-![image22](images/DNS15.png "DNS jacobosri.dns")
+![image21](images/DNS15.png "DNS jacobosri.dns")
 ```
-Imagen 22.  DNS jacobosri.dns
+Imagen 21.  DNS jacobosri.dns
 ```
 6. Comprobar en cliente Ubuntu (debe estar configurado con ip fija) el funcionamiento del servidor DNS en el dominio de cada uno tunombre.sri con el comando dig. a. Que resuelve todos los nombres y alias. 
+![image22](images/ubu8.png "dig jacobosri.dns")
+```
+Imagen 22.  dig jacobosri.dns
+```
+![image23](images/ubu9.png "dig jacobosri.dns")
+```
+Imagen 23.  dig jacobosri.dns
+```
+![image24](images/ubu10.png "dig jacobosri.dns")
+```
+Imagen 24.  dig jacobosri.dns
+```
 
 b. Que resuelve dominio externos. 
 
