@@ -110,7 +110,10 @@ Imagen 14.  DNS jacobosri.dns
 ```
 
 b. Debemos cambiar el sufijo DNS del equipo a este dominio que vamos a crear (esta opción se cambia donde se cambia el nombre del equipo pulsado el botón Más) 
-
+![image15](images/DNS8.png "DNS jacobosri.dns")
+```
+Imagen 15.  DNS jacobosri.dns
+```
 c. En el administrador de DNS, sobre zonas de búsqueda directa crearemos una nueva zona (tunombre.sri) 
 
 d. En el registro de inicio de autoridad (SOA) establece los siguientes valores: 
